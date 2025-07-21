@@ -1,0 +1,10 @@
+
+#title-container {
+  transition: opacity 0.5s, transform 0.5s;
+  opacity: 0;
+  transform: translateY(16px);
+}
+#title-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
